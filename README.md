@@ -4,6 +4,9 @@ Nekolux 的插件市场从这里读取索引与安装包。
 
 **索引地址：<https://plugins.aprism.top/index.json>**
 
+> 本仓库已通过 `robots.txt` 退出搜索引擎索引（客户端直接 HTTP 拉取，
+> 不经过搜索引擎，因此不受影响）。
+
 > 为什么用 GitHub Pages 而不是 raw.githubusercontent.com：
 > 部分自建网络环境（含国内部分机房）无法访问 `raw.githubusercontent.com`，
 > 但能正常访问 GitHub Pages。走 Pages 可以保证客户端拉得到索引。

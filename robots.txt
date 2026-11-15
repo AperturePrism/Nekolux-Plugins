@@ -1,0 +1,12 @@
+# Nekolux 插件源
+#
+# 这里只提供市场索引（index.json）与安装包，供客户端程序直接 HTTP 拉取。
+# 客户端不经过搜索引擎，所以下面的 Disallow 不影响正常使用，
+# 只是阻止搜索引擎把这个源收录进结果页。
+
+User-agent: *
+Disallow: /
+
+# 明确禁止归档与快照，避免第三方镜像留存旧版本
+User-agent: archive.org_bot
+Disallow: /
