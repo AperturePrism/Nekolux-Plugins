@@ -1,0 +1,9 @@
+{
+  "name": "keyword-reply",
+  "plugin": "keyword-reply",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "关键词自动回复：命中关键词时在群里回一句",
+  "author": "nekolux-demo",
+  "type": "module"
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-15T00:00:00.000Z",
+  "plugins": [
+    {
+      "id": "keyword-reply",
+      "name": "关键词自动回复",
+      "version": "1.0.0",
+      "description": "群消息命中关键词时自动回一句，支持多关键词、生效群与冷却。",
+      "author": "Nekolux",
+      "downloadUrl": "https://raw.githubusercontent.com/AperturePrism/Nekolux-Plugins/main/packages/keyword-reply-1.0.0.tar.gz",
+      "sha256": "b5c702fa685c443e3ab71e9b798dd941cd99c09f260a5231d95e3b95b7cee5a1",
+      "homepage": "https://github.com/AperturePrism/Nekolux-Plugins/tree/main/sources/keyword-reply",
+      "tags": ["reply", "automation"]
+    },
+    {
+      "id": "packet-observer",
+      "name": "封包观察",
+      "version": "1.0.0",
+      "description": "统计指定 SSO 命令的收发次数，演示 ctx.packets 原始封包 API。",
+      "author": "Nekolux",
+      "downloadUrl": "https://raw.githubusercontent.com/AperturePrism/Nekolux-Plugins/main/packages/packet-observer-1.0.0.tar.gz",
+      "sha256": "e063fa38b27b108c5e55ece4471225de19c0fedfb5186280af0290096026251e",
+      "homepage": "https://github.com/AperturePrism/Nekolux-Plugins/tree/main/sources/packet-observer",
+      "tags": ["diagnostics", "packet"]
+    },
+    {
+      "id": "webui-demo",
+      "name": "WebUI 扩展演示",
+      "version": "1.0.0",
+      "description": "演示动态配置 UI、扩展页、静态资源与插件内省。",
+      "author": "Nekolux",
+      "downloadUrl": "https://raw.githubusercontent.com/AperturePrism/Nekolux-Plugins/main/packages/webui-demo-1.0.0.tar.gz",
+      "sha256": "f3acf7abfb50769ad927a6a61def220de3ffe4348d915cad8c37550a330509e1",
+      "homepage": "https://github.com/AperturePrism/Nekolux-Plugins/tree/main/sources/webui-demo",
+      "tags": ["demo", "webui"]
+    }
+  ]
+}

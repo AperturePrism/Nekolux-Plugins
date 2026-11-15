@@ -1,0 +1,9 @@
+{
+  "name": "webui-demo",
+  "plugin": "webui-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "WebUI 扩展演示：动态配置 UI + 扩展页 + 静态资源 + 插件内省",
+  "author": "nekolux-demo",
+  "type": "module"
+}

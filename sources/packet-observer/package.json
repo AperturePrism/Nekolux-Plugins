@@ -1,0 +1,9 @@
+{
+  "name": "packet-observer",
+  "plugin": "packet-observer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "原始封包观察：统计指定 SSO 命令的收发次数（演示 ctx.packets API）",
+  "author": "nekolux-demo",
+  "type": "module"
+}
