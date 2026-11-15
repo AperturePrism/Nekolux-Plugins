@@ -2,6 +2,12 @@
 
 Nekolux 的插件市场从这里读取索引与安装包。
 
+**索引地址：<https://plugins.aprism.top/index.json>**
+
+> 为什么用 GitHub Pages 而不是 raw.githubusercontent.com：
+> 部分自建网络环境（含国内部分机房）无法访问 `raw.githubusercontent.com`，
+> 但能正常访问 GitHub Pages。走 Pages 可以保证客户端拉得到索引。
+
 ## 目录结构
 
 ```
@@ -28,9 +34,9 @@ Nekolux-Plugins/
       "version": "1.0.0",
       "description": "群消息命中关键词时自动回一句",
       "author": "Nekolux",
-      "downloadUrl": "https://raw.githubusercontent.com/<OWNER>/Nekolux-Plugins/main/packages/keyword-reply-1.0.0.tar.gz",
+      "downloadUrl": "https://plugins.aprism.top/packages/keyword-reply-1.0.0.tar.gz",
       "sha256": "（tar.gz 的 sha256，必填）",
-      "homepage": "https://github.com/<OWNER>/Nekolux-Plugins/tree/main/sources/keyword-reply",
+      "homepage": "https://github.com/AperturePrism/Nekolux-Plugins/tree/main/sources/keyword-reply",
       "tags": ["reply"]
     }
   ]
@@ -66,16 +72,19 @@ sha256sum packages/keyword-reply-1.0.0.tar.gz
 
 ## 客户端配置
 
-在 Nekolux WebUI →「插件市场」→「市场源」里填索引地址：
+**官方源已内置**，开箱即用 —— 不需要任何配置。
+
+如需添加第三方源，在 WebUI →「插件市场」→「市场源」里追加：
 
 ```
-https://raw.githubusercontent.com/<OWNER>/Nekolux-Plugins/main/index.json
+https://plugins.aprism.top/index.json          ← 官方源（内置，不可删）
+https://example.com/my-plugins/index.json      ← 第三方源
 ```
 
-或用环境变量（优先级更高）：
+或用环境变量覆盖（优先级最高）：
 
 ```bash
-UNIFIED_MARKET_INDEX=https://raw.githubusercontent.com/<OWNER>/Nekolux-Plugins/main/index.json
+UNIFIED_MARKET_INDEX=https://plugins.aprism.top/index.json
 ```
 
 ## 安全约束（客户端侧）
